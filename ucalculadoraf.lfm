@@ -1,0 +1,161 @@
+object Form1: TForm1
+  Left = 257
+  Height = 391
+  Top = 250
+  Width = 381
+  Caption = 'Form1'
+  ClientHeight = 391
+  ClientWidth = 381
+  LCLVersion = '4.8.0.0'
+  object edtTela: TEdit
+    Left = 80
+    Height = 23
+    Top = 32
+    Width = 200
+    TabOrder = 0
+  end
+  object btnLimpar: TButton
+    Left = 24
+    Height = 40
+    Top = 80
+    Width = 232
+    Caption = 'C'
+    TabOrder = 1
+    OnClick = btnLimparClick
+  end
+  object btnDividir: TButton
+    Left = 272
+    Height = 40
+    Top = 80
+    Width = 83
+    Caption = '/'
+    TabOrder = 2
+    OnClick = btnDividirClick
+  end
+  object btnMultiplicar: TButton
+    Left = 272
+    Height = 41
+    Top = 128
+    Width = 83
+    Caption = '*'
+    TabOrder = 3
+    OnClick = btnMultiplicarClick
+  end
+  object btnMenos: TButton
+    Left = 272
+    Height = 41
+    Top = 176
+    Width = 83
+    Caption = '-'
+    TabOrder = 4
+    OnClick = btnMenosClick
+  end
+  object btnMais: TButton
+    Left = 272
+    Height = 40
+    Top = 224
+    Width = 83
+    Caption = '+'
+    TabOrder = 5
+    OnClick = btnMaisClick
+  end
+  object btnIgual: TButton
+    Left = 272
+    Height = 40
+    Top = 272
+    Width = 83
+    Caption = '='
+    TabOrder = 6
+    OnClick = btnIgualClick
+  end
+  object btn7: TButton
+    Left = 24
+    Height = 41
+    Top = 128
+    Width = 64
+    Caption = '7'
+    TabOrder = 7
+    OnClick = btn7Click
+  end
+  object btn8: TButton
+    Left = 96
+    Height = 41
+    Top = 128
+    Width = 75
+    Caption = '8'
+    TabOrder = 8
+    OnClick = btn8Click
+  end
+  object btn9: TButton
+    Left = 181
+    Height = 41
+    Top = 128
+    Width = 75
+    Caption = '9'
+    TabOrder = 9
+    OnClick = btn9Click
+  end
+  object btn4: TButton
+    Left = 24
+    Height = 41
+    Top = 176
+    Width = 64
+    Caption = '4'
+    TabOrder = 10
+    OnClick = btn4Click
+  end
+  object btn5: TButton
+    Left = 96
+    Height = 41
+    Top = 176
+    Width = 75
+    Caption = '5'
+    TabOrder = 11
+    OnClick = btn5Click
+  end
+  object btn6: TButton
+    Left = 181
+    Height = 41
+    Top = 176
+    Width = 75
+    Caption = '6'
+    TabOrder = 12
+    OnClick = btn6Click
+  end
+  object botn1: TButton
+    Left = 24
+    Height = 40
+    Top = 224
+    Width = 64
+    Caption = '1'
+    TabOrder = 13
+    OnClick = botn1Click
+  end
+  object btn2: TButton
+    Left = 96
+    Height = 40
+    Top = 224
+    Width = 75
+    Caption = '2'
+    TabOrder = 14
+    OnClick = btn2Click
+  end
+  object btn3: TButton
+    Left = 181
+    Height = 40
+    Top = 224
+    Width = 75
+    Caption = '3'
+    TabOrder = 15
+    OnClick = btn3Click
+  end
+  object btn0: TButton
+    Left = 96
+    Height = 40
+    Top = 272
+    Width = 75
+    Caption = '0'
+    TabOrder = 16
+    OnClick = btn0Click
+  end
+end
